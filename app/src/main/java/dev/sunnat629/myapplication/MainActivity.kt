@@ -27,7 +27,6 @@ import dev.sunnat629.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
 
-    private val url = "https://showcase-content.cdn.test.nativewaves.com/objects/stream\$q74100txqnyjn172$44b24521f0194187b87993be6501ec95/blobs/static/formats/hls/data/master-parts.m3u8"
     private val url2 = "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
